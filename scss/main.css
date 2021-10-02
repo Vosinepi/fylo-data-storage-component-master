@@ -31,6 +31,28 @@ body {
   line-height: 1;
   min-height: 100vh;
   background: var(--veryDarkBlue);
+  background-image: url(./../images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 1950px 480px;
+  background-position: center bottom;
+}
+
+h2 {
+  font-size: 9px;
+  font-weight: 400;
+  color: var(--paleBlue);
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--paleBlue);
+  margin-top: 10px;
+}
+
+span {
+  font-weight: 700;
 }
 
 .storage {
@@ -52,9 +74,43 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 140px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 30px;
-  border-radius: 10px 60px 10px 10px;
+  border-radius: 10px 80px 10px 10px;
   background: var(--darkBlue);
+}
+
+.logo {
+  width: 90px;
+}
+
+.files {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 60px;
+}
+
+.click {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 40px;
+  border: 10px solid var(--veryDarkBlue);
+  border-radius: 7px;
+  background-color: var(--veryDarkBlue);
 }
 
 .capacity {
@@ -73,7 +129,7 @@ body {
           justify-content: center;
   border-radius: 10px;
   padding: 30px;
-  height: 90px;
+  height: 110px;
   background: var(--darkBlue);
 }
 
@@ -91,8 +147,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
   height: 20px;
   border-radius: 25px;
   background: var(--veryDarkBlue);
@@ -102,8 +156,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -139,10 +191,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 50px;
   width: 131px;
   right: 31px;
   top: -36px;
+  color: var(--veryDarkBlue);
   border-radius: 10px;
   background: var(--paleBlue);
   font-weight: 700;
@@ -150,7 +206,8 @@ body {
 }
 
 .remainGb .gb {
+  margin-left: 10px;
   font-size: 0.5rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 /*# sourceMappingURL=main.css.map */

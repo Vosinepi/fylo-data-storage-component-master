@@ -14,6 +14,7 @@
   }
 
 
+
 body {
     font-family: 'Raleway', sans-serif;
     display: flex;
@@ -22,7 +23,32 @@ body {
     line-height: 1;
     min-height: 100vh;
     background: var(--veryDarkBlue);
+    background-image: url(./../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 1950px 480px;
+    background-position:center bottom ;
+    
 }
+
+h2 {
+    font-size: 9px;
+    font-weight: 400;
+    color: var(--paleBlue);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--paleBlue);
+    margin-top: 10px;
+}
+
+span {
+    font-weight: 700;
+}
+
+//tarjetas 
 
 .storage {
     display: grid;
@@ -31,14 +57,40 @@ body {
     margin: auto;
     padding: 50px;
     gap: 30px;
+    
 }
 
 .uploadSection {
     display: flex;
     flex-direction: column;
+    height: 140px;
+    justify-content: space-between;
     padding: 30px;
-    border-radius: 10px 60px 10px 10px;
+    border-radius: 10px 80px 10px 10px;
     background: var(--darkBlue);
+}
+
+.logo {
+    width: 90px;
+
+    
+}
+
+.files {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 10px solid var(--veryDarkBlue);
+    border-radius: 7px;    
+    background-color: var(--veryDarkBlue);
 }
 
 .capacity {
@@ -49,20 +101,18 @@ body {
     justify-content: center;
     border-radius: 10px;
     padding: 30px;
-    height: 90px;
+    height: 110px;
     background: var(--darkBlue);
         .bar {
             display: flex;
             flex-direction: column;
             .bar__gradient {
                 display: flex;
-                align-content: center;
                 height: 20px;
                 border-radius: 25px;
                 background: var(--veryDarkBlue);
                 .barEnd {
                     display: flex;
-                    align-content: center;
                     justify-content: flex-end;
                     border-radius: 25px;
                     margin: 3px;
@@ -89,17 +139,22 @@ body {
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 50px;
     width: 131px;
     right: 31px;
     top: -36px;
+    color: var(--veryDarkBlue);
     border-radius: 10px;
     background: var(--paleBlue);
     font-weight: 700;
     font-size: 1.5rem;
         .gb {
+            margin-left: 10px;
             font-size: 0.5rem;
-            font-weight: 400;
+            font-weight: 700;
         }
     
 }
+
+//responsive
