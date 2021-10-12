@@ -30,7 +30,8 @@ body {
   background: var(--veryDarkBlue);
   background-image: url(./../images/bg-desktop.png);
   background-repeat: no-repeat;
-  background-position: center 317px;
+  background-size: 1950px 480px;
+  background-position: center bottom;
 }
 
 h2 {
@@ -231,7 +232,6 @@ span {
   body {
     background-image: url(./../images/bg-mobile.png);
     background-size: cover;
-    background-position: center bottom;
   }
   h2 {
     font-size: 14px;
