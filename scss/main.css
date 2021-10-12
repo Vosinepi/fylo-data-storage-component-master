@@ -19,6 +19,10 @@
   --gradient2: hsl(335, 100%, 65%);
 }
 
+hmtl, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   display: -webkit-box;
