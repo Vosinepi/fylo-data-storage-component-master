@@ -34,7 +34,7 @@ body {
   background-position: center bottom;
 }
 
-h2 {
+h1 {
   font-size: 9px;
   font-weight: 400;
   color: var(--paleBlue);
@@ -233,7 +233,7 @@ span {
     background-image: url(./../images/bg-mobile.png);
     background-size: cover;
   }
-  h2 {
+  h1 {
     font-size: 14px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
