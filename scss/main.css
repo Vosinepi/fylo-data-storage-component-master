@@ -30,8 +30,7 @@ body {
   background: var(--veryDarkBlue);
   background-image: url(./../images/bg-desktop.png);
   background-repeat: no-repeat;
-  background-size: 1950px 480px;
-  background-position: center bottom;
+  background-position: center 317px;
 }
 
 h2 {
@@ -206,7 +205,7 @@ span {
   top: -36px;
   color: var(--veryDarkBlue);
   border-radius: 10px;
-  background: var(--paleBlue);
+  background: white;
   font-weight: 700;
   font-size: 2rem;
 }
@@ -217,10 +216,22 @@ span {
   font-weight: 700;
 }
 
+.remainGb .triangle {
+  position: absolute;
+  top: 41px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 26px 26px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
 @media (max-width: 768px) {
   body {
     background-image: url(./../images/bg-mobile.png);
     background-size: cover;
+    background-position: center bottom;
   }
   h2 {
     font-size: 14px;
@@ -271,6 +282,9 @@ span {
   }
   .remainGb .gb {
     font-size: 0.8rem;
+  }
+  .remainGb .triangle {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
