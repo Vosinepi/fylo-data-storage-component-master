@@ -19,7 +19,8 @@
   --gradient2: hsl(335, 100%, 65%);
 }
 
-hmtl, body {
+hmtl,
+body {
   height: 100%;
 }
 
